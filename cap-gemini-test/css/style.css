@@ -1,0 +1,167 @@
+
+html, body, button, input, table, td, th {
+    font-family: "nta", Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-y: scroll;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background: white;
+    color: #0b0c0c;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 160%;
+    margin: 0;
+}
+#blue-bar {
+    height: 10px;
+    background-color: #005ea5;   
+    margin: 0 15px;
+}
+.container{
+    padding: 20px;
+    min-height: 600px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #dee0e2;
+    border-top: 1px solid #a1acb2;
+    padding: 20px 20px 60px;
+    clear: both;
+    font-size: 0;
+    color: #454a4c;
+}
+
+#footer .copyright {
+    display: inline-block;
+    text-align: inherit;
+    width: 20%;
+    padding-top: 15px;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+#footer .copyright a {
+    display: block;
+    background-image: url("/images/crest.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    text-align: right;
+    text-decoration: none;
+    padding: 115px 0 0 0;
+}
+
+#footer .footer-inner {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 78%;
+}
+
+#footer a {
+    color: #454a4c;
+}
+
+#footer .footer-inner ul {
+     margin: 0 0 1em 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+#footer .footer-inner ul li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+#footer .footer-inner .ogl .logo a {
+    display: block;
+    width: 41px;
+    height: 17px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url('/images/ogl.png') 0 0 no-repeat;
+}
+
+#footer .footer-inner .ogl p {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+#footer .footer-inner .ogl p {
+    display: inline-block;
+    padding-right: 10px;
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    padding-top: 0.1em;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.left-bar{
+    border-left: 2px solid #009390;
+}
+
+.hm-logo {
+    padding: 3px 0 5px 30px;
+    background-image: url(/images/hmrc.png);
+    background-position: 5px top;
+    background-size: auto 20px;
+    font-family: Helvetica, Arial;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.hm-logo a, .hm-logo span {
+    color: #0b0c0c;
+}
+
+button {
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 7px;
+    display: block;
+    background-color: #00823b;
+}
