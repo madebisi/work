@@ -1,17 +1,14 @@
-
-html, body, button, input, table, td, th {
-    font-family: "nta", Arial, sans-serif;
-}
-
 html {
-    font-size: 62.5%;
     overflow-y: scroll;
+    font-size: 16px;
 }
 
 html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
     margin: 0;
     padding: 0;
-    vertical-align: baseline;
+    vertical-align: baseline; 
+    font-family: Arial, sans-serif;
+    
 }
 
 div {
@@ -23,7 +20,6 @@ body {
     color: #0b0c0c;
     line-height: 1.5;
     font-weight: 400;
-    font-size: 160%;
     margin: 0;
 }
 #blue-bar {
@@ -53,7 +49,6 @@ h2 {
     border-top: 1px solid #a1acb2;
     padding: 20px 20px 60px;
     clear: both;
-    font-size: 0;
     color: #454a4c;
 }
 
@@ -63,13 +58,12 @@ h2 {
     width: 20%;
     padding-top: 15px;
     margin-top: 0;
-    font-size: 16px;
     line-height: 1.25;
 }
 
 #footer .copyright a {
     display: block;
-    background-image: url("/images/crest.png");
+    background-image: url("../images/crest.png");
     background-repeat: no-repeat;
     background-position: 100% 0%;
     text-align: right;
@@ -88,10 +82,9 @@ h2 {
 }
 
 #footer .footer-inner ul {
-     margin: 0 0 1em 0;
-    font-size: 16px;
+    margin: 0 0 1em 0;
     line-height: 1.5;
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
     text-transform: none;
     display: inline-block;
@@ -110,23 +103,21 @@ h2 {
     height: 17px;
     overflow: hidden;
     text-indent: -999em;
-    background: url('/images/ogl.png') 0 0 no-repeat;
+    background: url('../images/ogl.png') 0 0 no-repeat;
 }
 
 #footer .footer-inner .ogl p {
-    font-size: 16px;
     line-height: 1.25;
 }
 
 #footer .footer-inner .ogl p {
     display: inline-block;
     padding-right: 10px;
-    font-family: "nta", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
     text-transform: none;
     margin: 0;
     padding-top: 0.1em;
-    font-size: 16px;
     line-height: 1.25;
 }
 
@@ -136,7 +127,7 @@ h2 {
 
 .hm-logo {
     padding: 3px 0 5px 30px;
-    background-image: url(/images/hmrc.png);
+    background-image: url('../images/hmrc.png');
     background-position: 5px top;
     background-size: auto 20px;
     font-family: Helvetica, Arial;
@@ -144,7 +135,6 @@ h2 {
     display: block;
     position: relative;
     background-repeat: no-repeat;
-    font-size: 13px;
     line-height: 15px;
     text-decoration: none;
     margin-bottom: 20px;
@@ -159,9 +149,31 @@ button {
     color: #ffffff;
     font-weight: 700;
     text-transform: none;
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 1.2;
     padding: 7px;
     display: block;
     background-color: #00823b;
+}
+
+
+@media (max-device-width: 420px) and (orientation: portrait) {
+
+/*-- Styles --*/
+    html {
+        font-size: 26px;
+    }
+    input {
+        margin-top: 10px;
+        min-width: 50%;
+        height: 40px;
+    }
+    .doc-focus{
+        width: 50%;
+        height: 50%;
+    }
+    #footer .footer-inner {
+    width: 75%;
+}
+ 
 }
